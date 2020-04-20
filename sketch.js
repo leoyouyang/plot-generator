@@ -59,11 +59,6 @@ function gotData(data) {
   keys = Object.keys(plots);
   qty = keys.length;
   qtyText.html('Current number of submissions: ' + qty);
-
-  // for (let i = 0; i < qty; i++) {
-  //   let k = keys[i];
-  //   let klocation = plots[k].location;
-  // }
 }
 
 function errData(err) {
